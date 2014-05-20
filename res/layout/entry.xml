@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#566D7E">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#DCDCDC"
+            android:id="@+id/lblInfo" android:layout_gravity="center"/>
+    <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF">
+    </EditText>
+    <EditText
+            android:id="@+id/txtPasswordRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF">
+    </EditText>
+    <Button
+            android:id="@+id/btnEntry"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Entry"
+            android:textColor="#FFFFFF"
+            android:background="#25383C"
+            android:layout_margin="5dp"
+            android:textStyle="bold">
+    </Button>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#680000"
+            android:id="@+id/lblAttemptsLeft" android:layout_gravity="center"/>
+
+</LinearLayout>

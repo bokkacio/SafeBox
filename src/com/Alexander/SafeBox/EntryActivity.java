@@ -47,7 +47,7 @@ public class EntryActivity  extends Activity implements View.OnClickListener{
         else
         {
             txtPasswordRepeat.setVisibility(View.VISIBLE);
-            lblInfo.setText("Welcome to SafeBox. Please enter and repeat your password. The password must contain more then five symbols.");
+            lblInfo.setText("Welcome to SafeBox! Please enter and repeat your password. The password must contain more then five symbols.");
         }
     }
 

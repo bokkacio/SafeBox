@@ -67,7 +67,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -104,6 +103,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -140,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddElementActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AddElementActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/AddElementActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="159" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.025222551">
+            <state line="42" column="121" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,10 +185,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntryActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EntryActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/EntryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="146" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+            <state line="49" column="48" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.65578634">
               <folding />
             </state>
           </provider>
@@ -211,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/com/Alexander/SafeBox/UserInterfaceHelpers/UIHelper.java" />
         <option value="$PROJECT_DIR$/src/com/Alexander/SafeBox/UserInterfaceHelpers/MyAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/Alexander/SafeBox/StorageProcessing/FileRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/Alexander/SafeBox/EntryActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/remove_element.xml" />
@@ -220,6 +219,7 @@
         <option value="$PROJECT_DIR$/res/layout/entry.xml" />
         <option value="$PROJECT_DIR$/res/layout/add_element.xml" />
         <option value="$PROJECT_DIR$/src/com/Alexander/SafeBox/StartActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/Alexander/SafeBox/EntryActivity.java" />
       </list>
     </option>
   </component>
@@ -255,7 +255,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -345,6 +344,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,11 +359,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.StartActivity">
     <configuration default="false" name="StartActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
@@ -416,19 +416,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -454,6 +441,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -566,7 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1014" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,12 +576,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1831972" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32788798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20437567" sideWeight="0.8168028" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20437567" sideWeight="0.8168028" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1831972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.8168028" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -589,7 +590,6 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.67094517" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32788798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -626,7 +626,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -675,35 +675,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="30" selection-start="441" selection-end="450" vertical-scroll-proportion="-6.12" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_element.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/add_element.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="38" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.7642527" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/entry.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/entry.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="38" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.7642527" />
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/remove_element.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="68" selection-start="926" selection-end="926" vertical-scroll-proportion="-14.96" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="68" selection-start="926" selection-end="926" vertical-scroll-proportion="-14.96" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -716,13 +716,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/DbProcessing/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/DbProcessing/EntryDatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -755,16 +748,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/EntryActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/AddElementActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="146" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+        <state line="42" column="121" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/AddElementActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/DbProcessing/EntryDatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="159" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.025222551">
+        <state line="15" column="54" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Alexander/SafeBox/EntryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="48" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.65578634">
           <folding />
         </state>
       </provider>
